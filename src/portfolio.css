@@ -9,6 +9,11 @@ body {
   font-family: var(--default-font-family);
 }
 
+nav {
+  color: #272142;
+  font-family: var(--heading-font-family);
+}
+
 h1,
 h2,
 h3,
@@ -49,7 +54,7 @@ p {
 }
 
 .hero h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   font: 24px;
   font-weight: normal;
   line-height: 1.4;
@@ -75,6 +80,12 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+footer {
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  font-size: 24px;
 }
 
 @media (max-width: 900px) {
