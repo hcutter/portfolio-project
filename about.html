@@ -27,16 +27,19 @@
     ></script>
     <link rel="stylesheet" href="/src/portfolio.css" />
     <title>About Hannah Cutter</title>
-    <meta name="description" title="About Hannah Cutter" />
+    <meta name="description" title="Learn more about Hannah Cutter." />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/"
+        <a
+          class="navbar-brand"
+          href="/"
+          title="Click logo to navigate back to the homepage."
           ><img
             src="images/logo.png"
             class="img-fluid logo"
-            alt="hc hannah cutter logo"
+            alt="HC Hannah Cutter logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -52,18 +55,29 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link" href="/" title="Homepage">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/about.html"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/about.html"
+                title="About Hannah Cutter"
                 >About</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">My Work</a>
+              <a class="nav-link" href="/work.html" title="Hannah Cutter's Work"
+                >My Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a
+                class="nav-link"
+                href="/contact.html"
+                title="Contact Hannah Cutter"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -81,7 +95,9 @@
               those passions. From brainstorming with wireframes to the
               published product.
             </p>
-            <a href="/work.html" class="btn btn-branding">View my projects</a>
+            <a href="/work.html" class="btn btn-branding" title="Hannah's Work"
+              >View my projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
@@ -92,6 +108,62 @@
           />
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-4"
+              title="Contact me"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:cutterh98@gmail.com"
+            class="email-link"
+            title="Email Hannah Cutter"
+            >cutterh98@gmail.com</a
+          >
+        </div>
+        <div class="socials d-flex justify-content-center">
+          <a
+            href="https://www.linkedin.com/in/hannah-dorothy-cutter"
+            target="_blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fa-brands fa-linkedin linkedin"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/hannahdotcutter/"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fa-brands fa-instagram instagram"></i>
+          </a>
+          <a
+            href="https://github.com/hcutter"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fa-brands fa-github git"></i>
+          </a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by Hannah Cutter, and it is
+          <a
+            href="https://github.com/hcutter/portfolio-project.git"
+            target="_blank"
+            title="portfolio project link to GitHub"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
